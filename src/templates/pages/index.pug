@@ -1,46 +1,89 @@
-extends ../includes/g_head
-block variables
-  - var title = 'My Portfolio'
-block content 
+<!DOCTYPE html>
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Tehno-Dnepr || Главная
+        link(rel="stylesheet", href="assets/styles/app.min.css")
+    body
         .wrapper
-            .index-wrapper
-                
-                .wrapper-greeting
-                    .wrapper-greeting__rotate
-                        section.greeting.greeting-index
-                            .greeting__foto
-                                img(src="assets/images/content/ava.jpg", alt="ava")
-                            .greeting__title
-                                h3.greeting__title-name Никитенко Геннадий
-                                .greeting__title-text Личный сайт веб разработчика
-                            ul.social
-                                li.social__link
-                                    a.social__link-vk(href="https://vk.com/minorvankertis" target="_blank")
-                                        svg.social__icon-index.social__icon-vk
-                                            use(xlink:href="assets/images/sprite.svg#vk") 
-                                li.social__link
-                                    a.social__link-git(href="https://github.com/Minor353" target="_blank")
-                                        svg.social__icon-index.social__icon-git
-                                            use(xlink:href="assets/images/sprite.svg#github")
-                                li.social__link 
-                                    a.social__link-in(href="https://www.linkedin.com/in/hennadii-nikitenko-b68494a0/" target="_blank")
-                                        svg.social__icon-index.social__icon-in
-                                            use(xlink:href="assets/images/sprite.svg#in")
-                            ul.btn-page
-                                li.btn-page__item
-                                    a.btn-page__link(href="my-works.html") Мои работы
-                                li.btn-page__item
-                                    a.btn-page__link(href="about.html") Обо мне
-                                li.btn-page__item
-                                    a.btn-page__link(href="blog.html") Блог        
-                img(src="assets/images/content/layer_1.png", alt="bg").index-img.index-img__layer-1
-                img(src="assets/images/content/layer_2.png", alt="bg").index-img.index-img__layer-2
-                img(src="assets/images/content/layer_3.png", alt="bg").index-img.index-img__layer-3
-                img(src="assets/images/content/layer_4.png", alt="bg").index-img.index-img__layer-4
-                img(src="assets/images/content/layer_5.png", alt="bg").index-img.index-img__layer-5
-                .copywriting © Владимир Астахов | создано с любовью в LoftSchool | 2018
-                div#hellopreloader
-                    div#hellopreloader_preload
-                        .hellopreloader-bg
-        script(type="text/javascript") var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};
-        script(src="assets/scripts/index-min.js")
+            include ../includes/header.pug  
+            main.main
+                section.main-section
+                    img(src="#", alt="poster").main-section_bg
+                    .main-section_content
+                        h2.main-section_content-title Купите Б/У технику в рассрочку под 0%
+                        p.main-section_content-subtitle Подзаголовок
+                        .main-section_content-btn
+                            a(href="#").main-btn  Каталог товаров
+                section.contact
+                    ul.contact_wrap
+                        li.contact_item
+                            .contact_item-img
+                                img(src="#", alt="map")
+                            .contact_item-title Адрес
+                            .contact_item-text пр. Дмитрия Яворницкого, 111 г. Днепр
+                        li.contact_item
+                            .contact_item-img
+                                img(src="#", alt="phone")
+                            .contact_item-title Телефон
+                            .contact_item-text +380960241602
+                        li.contact_item
+                            .contact_item-img
+                                img(src="#", alt="mail")
+                            .contact_item-title Email
+                            .contact_item-text example@mail.com
+                        li.contact_item
+                            .contact_item-img
+                                img(src="#", alt="time")
+                            .contact_item-title график работы
+                            .contact_item-text Вторник-воскресенье с 10:00 до 17:00
+                section.product-categories--main-ps
+                    include ../includes/_product-categories.pug  
+                section.services
+                    h4.services_title Услуги
+                    ul.services_wrap
+                        li.services_item
+                            img(src="#", alt="services")
+                            .services_item-title Доставка по Украине
+                            .services_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                            a(href="#").services_item-btn подробнее
+                        li.services_item
+                            img(src="#", alt="services")
+                            .services_item-title Рассрочка платежа под 0%
+                            .services_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                            a(href="#").services_item-btn подробнее
+                        li.services_item
+                            img(src="#", alt="services")
+                            .services_item-title Ремонт техники
+                            .services_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                            a(href="#").services_item-btn подробнее
+                        li.services_item
+                            img(src="#", alt="services")
+                            .services_item-title Скидка на стиральные машины
+                            .services_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне
+                            a(href="#").services_item-btn подробнее
+                        li.services_item
+                            img(src="#", alt="services")
+                            .services_item-title Консультация
+                            .services_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                            a(href="#").services_item-btn подробнее
+                section.last-product--main-ps
+                    include ../includes/_last-product.pug  
+                section.about--main-ps
+                    h4.about_title О нас
+                    .about_advantages--main-ps
+                        include ../includes/_advantages.pug  
+                    .about_content
+                        p.about_content-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+                        a(href="#").about_link о нас
+                section.reviews--main-ps
+                    include ../includes/_reviews.pug  
+                section.form--main-ps
+                    include ../includes/_form.pug  
+                section.clients--main-ps
+                    include ../includes/_clients.pug
+                section.instagram--main-ps
+                    include ../includes/_instagram.pug
+            include ../includes/footer.pug  
