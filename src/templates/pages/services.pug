@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Tehno-Dnepr || Услуги
+    link(rel="stylesheet", href="assets/styles/app.min.css")
+  body
+    .wrapper
+      include ../includes/header.pug  
+      main.main
+        section.services-main
+          .services-main_wrap
+            .services-main_content
+              h4.services-main_content-title Услуги
+              p.services-main_content-textLorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+              p.services-main_content-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+            .services-main_img
+              img(src="#", alt="services")
+        section.delivery
+          .delivery_wrap
+            h4.delivery_title Доставка по Украине
+        section.payment
+          .payment_wrap
+            h4.payment_title Рассрочка платежа
+            .payment_content
+              ul.payment_content-list
+                li.payment_list-item
+                  p.payment_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+                  .payment_item-content
+                    .payment_item-img
+                      img(src="#", alt="")
+                    .payment_item-content-text Прозрачные условия
+                li.payment_list-item
+                  p.payment_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+                  .payment_item-content
+                    .payment_item-img
+                      img(src="#", alt="")
+                    .payment_item-content-text Покупайте сейчас
+                li.payment_list-item
+                  p.payment_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+                  .payment_item-content
+                    .payment_item-img
+                      img(src="#", alt="")
+                    .payment_item-content-text Пункт 3
+                li.payment_list-item
+                  p.payment_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров форм шрифтов, используя Lorem Ipsum для распечатки образцов.
+                  .payment_item-content
+                    .payment_item-img
+                      img(src="#", alt="")
+                    .payment_item-content-text Под 0% 
+        section.answers--services-ps
+          include ../includes/_answers.pug
+        section.form--services-ps
+          include ../includes/_form.pug
+      include ../includes/footer.pug   

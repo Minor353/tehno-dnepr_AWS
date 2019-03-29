@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Tehno-Dnepr || Каталог
+    link(rel="stylesheet", href="assets/styles/app.min.css")
+  body
+    .wrapper
+      include ../includes/header.pug  
+      main.main
+        section.last-product--catalog-ps
+          include ../includes/_last-product.pug  
+        section.catalog
+          .catalog_wrap
+            ul.catalog_categories
+              li.catalog_categories-item
+                .catalog_categories-item-title категории
+              li.catalog_categories-item  
+                a(href="#").catalog_categories-link Стиральные машины
+              li.catalog_categories-item  
+                a(href="#").catalog_categories-link Сушильные машины
+              li.catalog_categories-item  
+                a(href="#").catalog_categories-link Посудомоечные машины
+              li.catalog_categories-item  
+                a(href="#").catalog_categories-link Холодильники
+              li.catalog_categories-item  
+                a(href="#").catalog_categories-link Морозильные камеры
+              li.catalog_categories-item  
+                a(href="#").catalog_categories-link Электродуховки
+              li.catalog_categories-item  
+                a(href="#").catalog_categories-link Микроволновые печи
+              li.catalog_categories-item  
+                a(href="#").catalog_categories-link Кофеварки, кофемашины
+              li.catalog_categories-item  
+                a(href="#").catalog_categories-link Другое
+            ul.catalog_list
+              li.catalog_list-item
+                .catalog_list-item-img
+                  img(src="#", alt="product")
+                .catalog_item-name Название техники
+                .catalog_item-price Цена от 1000 грн
+                a(href="#").catalog_item-link Подробнее
+              li.catalog_list-item
+                .catalog_list-item-img
+                  img(src="#", alt="product")
+                .catalog_item-name Название техники
+                .catalog_item-price Цена от 1000 грн
+                a(href="#").catalog_item-link Подробнее
+              li.catalog_list-item
+                .catalog_list-item-img
+                  img(src="#", alt="product")
+                .catalog_item-name Название техники
+                .catalog_item-price Цена от 1000 грн
+                a(href="#").catalog_item-link Подробнее
+          .catalog_seo-content
+            .catalog_seo-title Стиральные машины - и процесс стирки теперь не занимает много времени!
+            .catalog_seo-text Появление стиральной машинки более ста лет назад связано с желанием облегчить жизнь женщин. За время исторического развития произошла смена принципа работы, внешнего вида, функционала. Современные разработчики не останавливаются на достигнутом и дальше ищут способы сделать агрегат более мощным, качественным и долговечным.
+      include ../includes/footer.pug   

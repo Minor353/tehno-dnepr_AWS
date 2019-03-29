@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Tehno-Dnepr || О нас
+    link(rel="stylesheet", href="assets/styles/app.min.css")
+  body
+    .wrapper
+      include ../includes/header.pug  
+      main.main
+        section.about-us
+          .about-us_wrap
+            .about-us_main-section
+              .about-us_main-content
+                h4.about-us_main-title Немного о нас
+                .about-us_main-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров  форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+              .about-us_main-img
+                img(src="#", alt="product")
+        section.about_advantages--about-ps
+          include ../includes/_advantages.pug
+        section.wwc
+          .wwc_wrap
+            .wwc_content
+              h4.wwc_content-title  Мы можем предоставить много выгодных условий
+              p.wwc_content-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
+            ul.wwc_list
+              li.wwc_list-item
+                .wwc_item-title Доставка по Украине
+                .wwc_item-img
+                  img(src="#", alt="wwc")
+                a(href="#").wwc_item-link подробнее
+              li.wwc_list-item
+                .wwc_item-title Ремонт техники
+                .wwc_item-img
+                  img(src="#", alt="wwc")
+                a(href="#").wwc_item-link подробнее
+              li.wwc_list-item
+                .wwc_item-title Рассрочка
+                .wwc_item-img
+                  img(src="#", alt="wwc")
+                a(href="#").wwc_item-link подробнее
+              li.wwc_list-item
+                .wwc_item-title Консультация
+                .wwc_item-img
+                  img(src="#", alt="wwc")
+                a(href="#").wwc_item-link подробнее
+        section.conditions
+          .conditions_wrap
+            h4.conditions_title Условия приобретения товара
+            ul.conditions_list
+              li.conditions_list-item
+                .conditions_item-img
+                  img(src="#", alt="num")
+                .conditions_item-title Пункт 1
+                .conditions_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати
+              li.conditions_list-item
+                .conditions_item-img
+                  img(src="#", alt="num")
+                .conditions_item-title Пункт 2
+                .conditions_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати
+              li.conditions_list-item
+                .conditions_item-img
+                  img(src="#", alt="num")
+                .conditions_item-title Пункт 3
+                .conditions_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати
+              li.conditions_list-item
+                .conditions_item-img
+                  img(src="#", alt="num")
+                .conditions_item-title Пункт 4
+                .conditions_item-text Lorem Ipsum - это текст-"рыба", часто используемый в печати
+        section.reviews--about-ps
+          include ../includes/_reviews.pug    
+        section.answers--about-ps
+          include ../includes/_answers.pug
+        section.form--about-ps
+          include ../includes/_form.pug
+        section.clients--about-ps
+          include ../includes/_clients.pug
+        section.instagram--about-ps
+          include ../includes/_instagram.pug
+      include ../includes/footer.pug      
