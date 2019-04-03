@@ -1,0 +1,28 @@
+.header {
+  background-color: rgba($color: #fff, $alpha: .9)
+}
+
+.header_wrap {
+  max-width: 1470px;
+  padding: 29px 15px 26px 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+}
+
+
+.header_contact {
+  margin-left: auto;
+  margin-right: 120px;
+}
+
+.header_contact-link {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: normal;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 15px;
+}

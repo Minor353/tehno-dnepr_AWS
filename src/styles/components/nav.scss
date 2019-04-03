@@ -1,0 +1,25 @@
+.nav_wrap {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav_item {
+  list-style-type: none;
+  margin-left: 80px;
+}
+
+.nav_item:first-child {
+  margin-left: 0;
+}
+
+.nav_item-link {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+  text-transform: uppercase;
+}
