@@ -2,13 +2,15 @@
   h4.form_title Остались вопросы?
   .form_content
     .form_content-img
-      img(src="#", alt="man")
+      img(src="assets/images/content/thinker.png", alt="man")
     form(action="#", method="post").form_wrap
       .form_area
-        input(type="text")
-        input(type="text")
-        input(type="text")
-        textarea(name="#")
+        .form_area-input
+          input(type="text" placeholder="Имя")
+          input(type="text" placeholder="Телефон")
+          input(type="text" placeholder="Почта")
+        .form_area-text
+          textarea(name="#" placeholder="Комментарий")
       .form_footer
         p *Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне
         button(type="submit").form_btn Отправить

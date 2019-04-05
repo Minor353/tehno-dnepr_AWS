@@ -1,0 +1,132 @@
+.services {
+  margin-top: 80px;
+}
+
+.services_title {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 80px;
+}
+
+.services_wrap {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services_item {
+  list-style-type: none;
+  width: 370px;
+  min-height: 200px;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-left: 82px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(50, 50, 50, 0.15);
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+}
+
+.services_item-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: normal;
+  margin-bottom: 17px;
+  color: #26293C;
+}
+
+.services_item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+.services_item-btn {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: normal;
+  text-align: right;
+  text-transform: uppercase;
+  padding: 7px 26px;
+  background: #26293C;
+  color: #FFFFFF;
+  width: min-content;
+  margin-left: auto;
+}
+
+.services_item--store {
+  background-color: #EF4C23;
+  box-shadow: 0px 5px 20px rgba(239, 76, 35, 0.45);
+  width: 770px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-bottom: 0;
+
+  .services_item-img {
+    position: relative;
+    margin-top: auto;
+    margin-right: 20px;
+  }
+
+  .services_item-content-wrap {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+
+  .services_item-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    color: #FFFFFF;
+  }
+
+  img {
+    position: static;
+    display: block;
+  }
+}
+
+.services_item-text--flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+
+}
+
+.services_item-text-in {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.services_item-text-percent {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: normal;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}

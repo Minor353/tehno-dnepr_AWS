@@ -1,0 +1,119 @@
+.last-product--main-ps {
+  margin-top: 100px;
+
+  .main-btn {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+
+.last-product_title {
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.last-product_wrap {
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-product_item {
+  position: relative;
+  padding: 35px 45px 20px 45px;
+  box-sizing: border-box;
+  list-style-type: none;
+  background: #FFFFFF;
+  border: 1px solid #505269;
+  box-shadow: 0px 5px 20px rgba(50, 50, 50, 0.15);
+}
+
+
+
+.last-product_item-img {
+  width: 180px;
+  max-height: 200px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.last-product_item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.last-product_item-price {
+  position: relative;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  background-color: #EF4C23;
+  padding: 10px 20px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  width: max-content;
+  color: #FFFFFF;
+}
+
+.last-product_item-price:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -42px;
+  height: 0;
+  width: 0;
+  border: 21px solid #fff;
+  border-left-color: #EF4C23;
+}
+
+.last-product_btn {
+  position: absolute;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #26293C;
+  color: #FFFFFF;
+  padding: 14px 50px;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.last-product_item:hover {
+  .last-product_item-img {
+    opacity: 0.1;
+    transition: 0.3s;
+  }
+
+  .last-product_btn {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.3s;
+  }
+}
