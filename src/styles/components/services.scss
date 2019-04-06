@@ -24,19 +24,25 @@
   box-sizing: border-box;
   padding: 20px;
   padding-left: 82px;
-  background: #FFFFFF;
+  background-color: #FFFFFF;
   box-shadow: 0px 5px 20px rgba(50, 50, 50, 0.15);
   position: relative;
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
+  transition: 0.3s;
 
   img {
     position: absolute;
     top: 20px;
     left: 20px;
+    z-index: 1;
+    opacity: 1;
+    transition: 0.1s;
   }
 }
+
+
 
 .services_item-title {
   font-style: normal;
@@ -45,6 +51,9 @@
   line-height: normal;
   margin-bottom: 17px;
   color: #26293C;
+  transition: 0.3s;
+  position: relative;
+  z-index: 10;
 }
 
 .services_item-text {
@@ -54,6 +63,9 @@
   line-height: normal;
   margin-bottom: 25px;
   color: #000000;
+  transition: 0.3s;
+  position: relative;
+  z-index: 11;
 }
 
 .services_item-btn {
@@ -65,12 +77,50 @@
   line-height: normal;
   text-align: right;
   text-transform: uppercase;
-  padding: 7px 26px;
+  padding: 5px 24px;
   background: #26293C;
   color: #FFFFFF;
   width: min-content;
   margin-left: auto;
+  border: 2px solid transparent;
+  transition: 0.3s;
 }
+
+
+
+.services_item:hover {
+  background-color: #505269;
+  box-shadow: 0px 0px 1px rgba(50, 50, 50, 0.05);
+  transition: 0.3s;
+
+  img {
+    opacity: 0.1;
+    transition: 0.2s;
+  }
+
+  .services_item-title {
+    color: #fff;
+    transition: 0.3s;
+  }
+
+  .services_item-text {
+    color: #fff;
+    transition: 0.3s;
+  }
+
+  .services_item-btn {
+    background-color: #EF4C23;
+    transition: 0.3s;
+  }
+
+  .services_item-btn:hover {
+    background: #FFFFFF;
+    border: 2px solid #EF4C23;
+    color: #EF4C23;
+  }
+}
+
+
 
 .services_item--store {
   background-color: #EF4C23;
@@ -107,6 +157,12 @@
   img {
     position: static;
     display: block;
+  }
+}
+
+.services_item--store:hover {
+  img {
+    opacity: 1;
   }
 }
 

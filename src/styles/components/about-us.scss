@@ -1,0 +1,29 @@
+.about-us_main-section {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  min-height: 574px;
+}
+
+.about-us_main-content {
+  width: 570px;
+}
+
+.about-us_main-img {
+  width: 945px;
+  position: absolute;
+  right: -350px;
+  top: 0;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.about-us_main-title {
+  width: 163px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}

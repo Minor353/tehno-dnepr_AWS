@@ -80,6 +80,7 @@
     line-height: normal;
     text-decoration: none;
     color: #FFFFFF;
+    transition: 0.3s;
   }
 }
 
@@ -106,5 +107,13 @@
 
   .footer_item-link {
     max-width: 170px;
+  }
+}
+
+
+.footer_item-link:hover {
+  a {
+    color: #EF4C23;
+    transition: 0.3s;
   }
 }

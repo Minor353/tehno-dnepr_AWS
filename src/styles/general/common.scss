@@ -2,10 +2,25 @@
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 h4 {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 40px;
+}
+
+
+.delivery_title,
+.repairs_title,
+.consultation_title,
+.payment_title {
+  text-align: center;
+  color: #EF4C23;
+}
+
+.services_title-active {
+  color: #000000;
 }

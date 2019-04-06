@@ -1,0 +1,85 @@
+.answers--about-ps {
+  margin-top: 100px;
+}
+
+.answers--services-ps {
+  margin-top: 120px;
+}
+
+.answers_title {
+  margin-top: 0;
+  text-align: center;
+}
+
+.answers_wrap {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.answers_content {
+  display: flex;
+}
+
+.answers_text {
+  max-width: 570px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #505269;
+}
+
+.answers_block {
+  max-width: 570px;
+}
+
+.answers_item-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: normal;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid transparent;
+  color: #26293C;
+}
+
+.answers_item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0;
+  line-height: 0px;
+
+  color: #000000;
+}
+
+.answers_item {
+  min-width: 570px;
+  list-style-type: none;
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(50, 50, 50, 0.15);
+  padding: 7px 20px 7px 20px;
+  margin-bottom: 27px;
+}
+
+.answers_item:last-child {
+  margin-bottom: 0px;
+}
+
+
+.answers_item-active {
+  box-shadow: 0px 0px 1px rgba(50, 50, 50, 0.05);
+  padding: 7px 20px 20px 20px;
+
+  .answers_item-title {
+    border-bottom: 1px solid #505269;
+    margin-bottom: 20px;
+    padding-bottom: 6px;
+  }
+
+  .answers_item-text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

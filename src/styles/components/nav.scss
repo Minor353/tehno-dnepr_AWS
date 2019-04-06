@@ -22,4 +22,13 @@
   font-size: 18px;
   line-height: normal;
   text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.nav_item:hover {
+  .nav_item-link {
+    color: #EF4C23;
+    transition: 0.3s;
+  }
+
 }

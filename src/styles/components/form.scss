@@ -2,6 +2,15 @@
   margin-top: 60px;
 }
 
+.form--about-ps {
+  margin-top: 60px;
+}
+
+.form--services-ps {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
 .form_title {
   text-align: center;
   margin-top: 0;
@@ -39,6 +48,14 @@
     width: 370px;
     box-sizing: border-box;
     margin-bottom: 20px;
+    background: #FFFFFF;
+    border: 1px solid #505269;
+    transition: 0.3s;
+  }
+
+  input:hover {
+    border: 1px solid #EF4C23;
+    transition: 0.3s;
   }
 }
 
@@ -54,6 +71,14 @@
     line-height: normal;
     padding: 15px 20px;
     box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #505269;
+    transition: 0.3s;
+  }
+
+  textarea:hover {
+    border: 1px solid #EF4C23;
+    transition: 0.3s;
   }
 }
 
@@ -77,7 +102,17 @@
   line-height: normal;
   text-transform: uppercase;
   background-color: #EF4C23;
+  border: 2px solid transparent;
   color: #FFFFFF;
-  border: none;
-  padding: 14px 32px;
+  padding: 12px 30px;
+  transition: 0.3s;
+}
+
+
+.form_btn:hover {
+  background-color: #fff;
+  color: #EF4C23;
+  border: 2px solid #EF4C23;
+  transition: 0.3s;
+  cursor: pointer;
 }

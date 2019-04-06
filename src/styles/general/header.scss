@@ -1,6 +1,8 @@
 .header {
   background-color: rgba($color: #fff, $alpha: .9);
   box-shadow: 0px 5px 20px rgba(50, 50, 50, 0.15);
+  position: relative;
+  z-index: 999;
 }
 
 .header_wrap {
@@ -26,4 +28,22 @@
   text-decoration: none;
   color: #000000;
   margin-left: 15px;
+  transition: 0.3s;
+}
+
+.header_contact-img {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.header_contact:hover {
+  .header_contact-link {
+    color: #EF4C23;
+    transition: 0.3s;
+  }
+
+  .header_contact-img {
+    opacity: 0.5;
+    transition: 0.3s;
+  }
 }
