@@ -36,6 +36,7 @@
   position: relative;
   background-color: #FFFFFF;
   box-shadow: 0px 5px 20px rgba(50, 50, 50, 0.15);
+  transition: 0.3s;
 }
 
 .wwc_item-img {
@@ -75,7 +76,36 @@
   background-color: #26293C;
   color: #FFFFFF;
   text-decoration: none;
-  padding: 7px 26px;
+  padding: 5px 24px;
+  border: 2px solid transparent;
   display: block;
   width: max-content;
+  transition: 0.1s;
+}
+
+
+.wwc_list-item:hover {
+  background-color: #505269;
+  box-shadow: 0px 0px 1px rgba(50, 50, 50, 0.05);
+  transition: 0.3s;
+
+  .wwc_item-img {
+    opacity: 0.2;
+  }
+
+  .wwc_item-title {
+    color: #FFFFFF;
+  }
+
+  .wwc_item-link {
+    border: 2px solid #EF4C23;
+    background-color: #EF4C23;
+    color: #FFFFFF;
+    transition: 0.3s;
+  }
+
+  .wwc_item-link:hover {
+    background-color: #fff;
+    color: #EF4C23;
+  }
 }

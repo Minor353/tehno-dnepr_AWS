@@ -23,6 +23,12 @@
   text-decoration: none;
   color: #828282;
   display: block;
+  transition: 0.3s;
+}
+
+.breadcrumbs_item-link:hover {
+  color: #EF4C23;
+  transition: 0.3s;
 }
 
 .breadcrumbs_item-text {

@@ -50,7 +50,7 @@
   font-weight: normal;
   font-size: 0;
   line-height: 0px;
-
+  opacity: 0;
   color: #000000;
 }
 
@@ -61,6 +61,7 @@
   box-shadow: 0px 5px 20px rgba(50, 50, 50, 0.15);
   padding: 7px 20px 7px 20px;
   margin-bottom: 27px;
+  transition: 0.3s;
 }
 
 .answers_item:last-child {
@@ -81,5 +82,17 @@
   .answers_item-text {
     font-size: 14px;
     line-height: 21px;
+    opacity: 1;
+    transition: opacity 1s;
   }
+}
+
+.answers_item-title:hover {
+  cursor: pointer;
+}
+
+
+.answers_item:hover {
+  box-shadow: none;
+  transition: 0.3s;
 }

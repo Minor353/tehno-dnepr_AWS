@@ -5,6 +5,7 @@ html(lang="ru")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title Tehno-Dnepr || Главная
+        link(rel='stylesheet', type='text/css', href='//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css')
         link(rel="stylesheet", href="assets/styles/app.min.css")
     body
         .wrapper
@@ -16,7 +17,7 @@ html(lang="ru")
                         h2.main-section_content-title Купите Б/У технику в рассрочку под 0%
                         p.main-section_content-subtitle Подзаголовок
                         .main-section_content-btn
-                            a(href="#").main-btn Каталог товаров
+                            a(href="catalog.html").main-btn Каталог товаров
                 section.contact
                     ul.contact_wrap
                         li.contact_item
@@ -87,7 +88,7 @@ html(lang="ru")
                             include ../includes/_advantages.pug  
                         .about_content
                             p.about_content-text Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой"для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
-                            a(href="#").about_link о нас
+                            a(href="about.html").about_link о нас
                     section.reviews--main-ps
                         include ../includes/_reviews.pug  
                 section.form--main-ps
