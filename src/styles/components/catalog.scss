@@ -47,20 +47,30 @@
   transition: 0.3s;
 }
 
-
+.catalog_list-wrap {
+  width: 100%;
+}
 
 .catalog_list {
-  display: flex;
+  display: none;
+  opacity: 0;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0;
   margin: 0;
   width: 100%;
+  transition: 0.3s;
 
   .last-product_item {
     max-height: 400px;
     margin-bottom: 30px;
   }
+}
+
+.catalog_list--active {
+  display: flex;
+  opacity: 1;
+  transition: 0.5s;
 }
 
 .catalog_seo-content {
@@ -85,4 +95,8 @@
   line-height: normal;
 
   color: #000000;
+}
+
+.catalog_categories-link--active {
+  color: #EF4C23;
 }

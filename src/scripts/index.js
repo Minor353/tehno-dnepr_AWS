@@ -11,3 +11,6 @@ productTabs();
 
 const answers = require('./component/answers.js');
 answers();
+
+const catalog = require('./component/catalog.js');
+catalog();
