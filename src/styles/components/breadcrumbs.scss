@@ -57,3 +57,32 @@
   background-repeat: no-repeat;
   background-position: right;
 }
+
+
+@media screen and (max-width: 800px) {
+  .breadcrumbs {
+    margin-bottom: 30px;
+  }
+
+  .breadcrumbs_item-link,
+  .breadcrumbs_item-text {
+    padding: 14px 30px;
+    padding-left: 20px;
+    min-width: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .breadcrumbs_item-link {
+    font-size: 14px;
+  }
+
+  .breadcrumbs_item-text {
+    font-size: 14px;
+  }
+
+  .breadcrumbs_item-link,
+  .breadcrumbs_item-text {
+    padding: 14px 14px;
+  }
+}

@@ -1,6 +1,7 @@
 .services-main_wrap {
   max-width: 1170px;
   margin: 0 auto;
+  padding: 0 15px;
   display: flex;
   position: relative;
   min-height: 500px;
@@ -15,4 +16,27 @@
   position: absolute;
   top: -50px;
   right: -380px;
+}
+
+@media screen and (max-width: 1150px) {
+  .services-main_wrap {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .services-main_content {
+    width: 100%;
+
+    .services-main_content-title {
+      margin-top: 30px;
+    }
+  }
+
+  .services-main_img {
+    position: static;
+
+    img {
+      width: 100%;
+    }
+  }
 }

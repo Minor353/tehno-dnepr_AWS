@@ -13,6 +13,7 @@
 
 .answers_wrap {
   max-width: 1170px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -55,7 +56,6 @@
 }
 
 .answers_item {
-  min-width: 570px;
   list-style-type: none;
   background-color: #FFFFFF;
   box-shadow: 0px 5px 20px rgba(50, 50, 50, 0.15);
@@ -95,4 +95,22 @@
 .answers_item:hover {
   box-shadow: none;
   transition: 0.3s;
+}
+
+@media screen and (max-width: 1024px) {
+  .answers_content {
+    flex-direction: column;
+  }
+
+  .answers_text {
+    max-width: 100%;
+  }
+
+  .answers_block {
+    max-width: 100%;
+  }
+
+  .answers_list {
+    padding: 0;
+  }
 }

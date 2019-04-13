@@ -5,6 +5,7 @@
 .catalog_wrap {
   max-width: 1170px;
   margin: 0 auto;
+  padding: 0 15px;
   display: flex;
   margin-bottom: 170px;
 }
@@ -75,6 +76,7 @@
 
 .catalog_seo-content {
   max-width: 1170px;
+  padding: 0 15px;
   margin: 0 auto;
   margin-bottom: 140px;
 }
@@ -99,4 +101,11 @@
 
 .catalog_categories-link--active {
   color: #EF4C23;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .catalog_list {
+    justify-content: space-around;
+  }
 }

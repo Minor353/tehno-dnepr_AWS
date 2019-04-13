@@ -27,3 +27,10 @@
     margin: 0 auto;
   }
 }
+
+
+@media screen and (max-width: 700px) {
+  .clients_item {
+    width: 25%;
+  }
+}

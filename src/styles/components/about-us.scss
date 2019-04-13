@@ -1,5 +1,6 @@
 .about-us_main-section {
   max-width: 1170px;
+  padding: 0 15px;
   margin: 0 auto;
   display: flex;
   position: relative;
@@ -26,4 +27,25 @@
   width: 163px;
   margin-top: 80px;
   margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .about-us_main-section {
+    flex-direction: column;
+  }
+
+  .about-us_main-content {
+    width: 100%;
+  }
+
+  .about-us_main-img {
+    position: static;
+    width: 100%;
+  }
+
+  .about-us_main-title {
+    width: 100%;
+    margin-top: 30px;
+  }
 }

@@ -1,6 +1,7 @@
 .wwc_wrap {
   max-width: 1170px;
   margin: 0 auto;
+  padding: 0 15px;
   margin-top: 120px;
 }
 
@@ -107,5 +108,25 @@
   .wwc_item-link:hover {
     background-color: #fff;
     color: #EF4C23;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .wwc_list {
+    flex-wrap: wrap;
+  }
+
+  .wwc_list-item {
+    width: 49%;
+    margin-bottom: 20px;
+  }
+
+  .wwc_item-title {
+    text-align: right;
+  }
+
+  .wwc_item-link {
+    margin-left: auto;
   }
 }

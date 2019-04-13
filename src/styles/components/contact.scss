@@ -7,8 +7,8 @@
 
 .contact_wrap {
   max-width: 1170px;
+  padding: 0 15px;
   margin: 0 auto;
-  padding: 0;
   display: flex;
 }
 
@@ -80,5 +80,32 @@
         transition: .3s;
       }
     }
+  }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .contact_wrap {
+    justify-content: center;
+  }
+
+  .contact_item {
+    min-width: auto;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_wrap {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .contact_item {
+    width: 49%;
+    background-color: #F2F2F2;
+    box-shadow: 0px 5px 20px rgba(50, 50, 50, 0.15);
+    margin-bottom: 20px;
   }
 }

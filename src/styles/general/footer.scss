@@ -6,7 +6,7 @@
   display: flex;
   max-width: 1170px;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 40px 15px;
   justify-content: space-between;
 }
 
@@ -115,5 +115,27 @@
   a {
     color: #EF4C23;
     transition: 0.3s;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .footer_item-list-catalog {
+    flex-wrap: nowrap;
+    height: auto;
+    width: 200px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+
+  .footer_item:nth-child(2),
+  .footer_item:nth-child(3) {
+    display: none;
+  }
+
+  .footer_wrap {
+    justify-content: space-around;
   }
 }

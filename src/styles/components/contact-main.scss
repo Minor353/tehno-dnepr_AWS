@@ -2,6 +2,7 @@
   position: relative;
   min-height: 520px;
   margin-bottom: 120px;
+  padding: 0 15px;
 }
 
 .contact-main_content {
@@ -76,4 +77,20 @@
 
 .contact-main_list-data {
   max-width: 170px;
+}
+
+
+@media screen and (max-width: 1150px) {
+  .contact-main_map {
+    position: static;
+    height: 400px;
+  }
+
+  .contact-main_content {
+    padding-top: 30px;
+  }
+
+  .contact-main_content-list {
+    max-width: 100%;
+  }
 }

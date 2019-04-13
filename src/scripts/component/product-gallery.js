@@ -9,7 +9,7 @@ module.exports = function () {
   });
   $('.main-product_gallery-nav').slick({
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 0,
     centerPadding: 0,
     vertical: true,
     asNavFor: '.main-product_gallery-main',

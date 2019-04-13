@@ -14,3 +14,6 @@ answers();
 
 const catalog = require('./component/catalog.js');
 catalog();
+
+const navMobile = require('./component/nav-mobile.js');
+navMobile();

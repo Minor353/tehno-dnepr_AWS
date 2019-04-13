@@ -1,3 +1,7 @@
+.product-categories {
+  padding: 0 15px;
+}
+
 .product-categories_wrap {
   max-width: 1470px;
   margin: 0 auto;
@@ -121,5 +125,12 @@
     width: 126px;
     height: 126px;
     transition: 0.3s;
+  }
+}
+
+
+@media screen and (max-width: 1470px) {
+  .product-categories_wrap {
+    overflow-x: scroll;
   }
 }
