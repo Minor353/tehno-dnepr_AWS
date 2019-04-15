@@ -14,3 +14,13 @@
 .instagram {
   padding-bottom: 100px;
 }
+
+@media screen and (max-width: 550px) {
+  .instagram--main-ps {
+    margin-top: 40px;
+  }
+
+  .instagram--about-ps {
+    margin-top: 40px;
+  }
+}

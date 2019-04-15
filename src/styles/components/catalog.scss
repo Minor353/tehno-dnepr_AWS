@@ -109,3 +109,76 @@
     justify-content: space-around;
   }
 }
+
+
+@media screen and (max-width: 650px) {
+  .catalog {
+    margin-top: 50px;
+  }
+
+  .catalog_seo-content {
+    margin-bottom: 70px;
+  }
+
+  .catalog_wrap {
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .catalog_categories {
+    background-color: #fff;
+    padding: 5px;
+    position: fixed;
+    top: 90px;
+    left: -290px;
+    z-index: 99;
+    box-shadow: 0px 5px 20px rgba(50, 50, 50, 0.15);
+    height: 80%;
+    width: 280px;
+    margin-right: 0;
+    overflow-y: scroll;
+    transition: 0.3s;
+  }
+
+  .catalog_categories--active {
+    left: 0;
+    transition: 0.3s;
+  }
+
+  .catalog_categories-btn {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 190px;
+    left: 0px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    background-image: url('../images/icons/categories-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+  }
+
+  .catalog_categories-btn--active {
+    left: 290px;
+    transition: 0.3s;
+    opacity: 0.6;
+  }
+
+  .catalog_categories-item:last-child {
+    margin-bottom: 20px;
+  }
+
+  .catalog_categories-item:nth-child(2) {
+    margin-bottom: 20px;
+
+
+    .catalog_categories-item-title {
+      border-bottom: 1px solid #d6d6d6;
+      padding: 10px 0;
+    }
+  }
+}

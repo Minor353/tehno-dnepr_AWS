@@ -109,3 +109,16 @@
     margin-bottom: 20px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .contact_item {
+    width: 100%;
+    padding: 26px 26px;
+    padding-top: 26px;
+  }
+
+  .contact_item-title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+}

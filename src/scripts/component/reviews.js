@@ -23,8 +23,9 @@
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
+              slidesToShow: 1,
+              centerPadding: '0px',
+              slidesToScroll: 1
             }
           },
           {

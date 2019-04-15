@@ -241,3 +241,34 @@
     margin: 0 auto;
   }
 }
+
+
+@media screen and (max-width: 550px) {
+  .services_wrap {
+    flex-direction: column;
+  }
+
+  .services_item:nth-child(1),
+  .services_item:nth-child(2),
+  .services_item:nth-child(3),
+  .services_item:nth-child(5) {
+    width: 100%;
+  }
+
+  .services_title {
+    margin-bottom: 40px;
+  }
+
+  .services_item {
+    padding-left: 20px;
+  }
+
+  .services_item-title {
+    text-align: left;
+  }
+
+
+  .services_item-text--flex {
+    margin-bottom: 15px;
+  }
+}

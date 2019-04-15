@@ -139,3 +139,13 @@
     justify-content: space-around;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .footer_wrap {
+    flex-direction: column;
+  }
+
+  .footer_item:first-child {
+    margin-bottom: 40px;
+  }
+}

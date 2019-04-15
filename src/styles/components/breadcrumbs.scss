@@ -86,3 +86,22 @@
     padding: 14px 14px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .breadcrumbs_list {
+    flex-wrap: wrap;
+  }
+
+  .breadcrumbs_item-link,
+  .breadcrumbs_item-text {
+    padding: 10px 10px;
+  }
+
+  .breadcrumbs_item-link {
+    font-size: 12px;
+  }
+
+  .breadcrumbs_item-text {
+    font-size: 12px;
+  }
+}

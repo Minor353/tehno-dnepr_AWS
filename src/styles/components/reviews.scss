@@ -79,3 +79,15 @@
     max-width: 98%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .reviews_item-wrap {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .reviews--main-ps {
+    margin-top: 60px;
+  }
+}

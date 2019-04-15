@@ -146,9 +146,9 @@
 .overlayMenu {
   position: absolute;
   text-align: right;
-  right: 0px;
-  bottom: 50%;
-  transform: translateX(-50%);
+  right: 65px;
+  top: 50%;
+  transform: translateY(-50%);
 
   ul {
     list-style: none;

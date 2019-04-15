@@ -78,3 +78,28 @@
   width: max-content;
   margin-bottom: 20px;
 }
+
+
+@media screen and (max-width: 600px) {
+  .payment_list-item {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .payment_wrap {
+    padding: 0 15px;
+  }
+
+  .payment_content-decor {
+    display: none;
+  }
+
+  .payment_list-item {
+    flex-direction: column-reverse;
+  }
+
+  .payment_item-content {
+    background: transparent;
+  }
+}
