@@ -22,6 +22,35 @@ html(lang="ru")
             li.breadcrumbs_list-item
               .breadcrumbs_item-text AEG L58547SL
         .main-product
+          .product-form
+            .product-form_wrap
+              .product-form_cross
+              .product-form_content
+                .product-form_title
+                form(action="#", method="post").product-form_form
+                  input(type="text").product-form_product-name
+                  input(type="text").product-form_type
+                  .product-form_form-input
+                    input(type="text" placeholder="Имя")
+                    input(type="text" placeholder="Телефон")
+                    input(type="text" placeholder="Почта")
+                  .product-form_form-textarea
+                    textarea(name="" placeholder="Комментарий")
+                  .product-form_form-radio
+                    label
+                      input(type="radio", name="delivery" value="Самовывоз")
+                      img(src="assets/images/icons/shopping-bag.svg", alt="icon")
+                      span Самовывоз из магазина
+                    label
+                      input(type="radio", name="delivery" value="Новая почта")
+                      img(src="assets/images/icons/np.svg", alt="icon")
+                      span Доставка по Украине 
+                    label
+                      input(type="radio", name="delivery" value="Курьерская доставка")
+                      img(src="assets/images/icons/min-package.svg", alt="icon")
+                      span Курьерская доставка
+                  .product-form_form-text Мы свяжемся с Вами для подтверждения заказа и уточнения деталей в ближайшее время
+                  button(type="submit").product-form_btn отправить
           .main-product_wrap
             .main-product_gallery
               .main-product_gallery-main

@@ -17,3 +17,6 @@ catalog();
 
 const navMobile = require('./component/nav-mobile.js');
 navMobile();
+
+const productForm = require('./component/product-form.js');
+productForm();
