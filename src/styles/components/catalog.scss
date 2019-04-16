@@ -43,6 +43,10 @@
   transition: 0.3s;
 }
 
+.catalog_categories-btn {
+  list-style-type: none;
+}
+
 .catalog_categories-link:hover {
   color: #EF4C23;
   transition: 0.3s;
@@ -146,7 +150,7 @@
   }
 
   .catalog_categories-btn {
-    content: '';
+    list-style-type: none;
     display: block;
     position: fixed;
     top: 190px;
