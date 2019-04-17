@@ -14,13 +14,11 @@
   box-sizing: border-box;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
-.header_contact {
-  margin-left: auto;
-  margin-right: 120px;
-}
 
 .header_contact-link {
   font-family: 'Open Sans', sans-serif;
@@ -54,16 +52,11 @@
 @media screen and (max-width: 1024px) {
 
   .header_contact {
-    margin-right: 70px;
+    margin-right: 10px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .header_contact {
-    margin-right: 0px;
-    margin: 0 auto;
-  }
-}
+
 
 
 @media screen and (max-width: 650px) {
