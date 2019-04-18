@@ -10,7 +10,7 @@
 
 .header_wrap {
   max-width: 1470px;
-  padding: 29px 30px 26px 30px;
+  padding: 8px 30px 8px 30px;
   box-sizing: border-box;
   margin: 0 auto;
   display: flex;
@@ -61,6 +61,12 @@
 
 @media screen and (max-width: 650px) {
   .header_wrap {
-    padding: 15px 10px 10px 10px;
+    padding: 8px 10px 8px 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header_contact-link {
+    margin-left: 3px;
   }
 }
