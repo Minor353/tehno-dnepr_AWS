@@ -6,13 +6,16 @@ module.exports = function () {
 
   const productTitle = document.querySelector('.main-product_description-title').textContent; //Название товара
 
+
+
+
   const productTitleInput = document.querySelector('.product-form_product-name'); //Инпут который принимает название продукта
   const formTitleInput = document.querySelector('.product-form_type'); //Инпут который принимает тип формы
 
   const formWraper = document.querySelector('.product-form'); //Контейнер формы
   const formCross = document.querySelector('.product-form_cross'); //Крестик закрытия формы
 
-  if (productTitle) {
+  if (btnOrder) {
 
     btnOrder.addEventListener('click', function (e) {
       e.preventDefault();

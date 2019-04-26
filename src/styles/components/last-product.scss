@@ -1,5 +1,31 @@
 .last-product {
   padding: 0 15px;
+  position: relative;
+}
+
+.last-product::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 67px;
+  right: 20px;
+  width: 100px;
+  border: 1px solid #505269;
+  opacity: 0;
+}
+
+.last-product::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 56px;
+  right: 30px;
+  width: 25px;
+  height: 25px;
+  border-right: 1.5px solid #ef4c23;
+  border-bottom: 1.5px solid #ef4c23;
+  animation: moveArrow 2s infinite ease-in-out;
+  opacity: 0;
 }
 
 .last-product--main-ps {
@@ -146,6 +172,14 @@
 @media screen and (max-width: 1470px) {
   .last-product_wrap {
     overflow-x: scroll;
+  }
+
+  .last-product::after {
+    opacity: 1;
+  }
+
+  .last-product::before {
+    opacity: 1;
   }
 
   .last-product_item {
