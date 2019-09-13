@@ -4,7 +4,9 @@ module.exports = function () {
 
   const formTitle = document.querySelector('.product-form_title'); //Текст на вызваной форме
 
-  const productTitle = document.querySelector('.main-product_description-title').textContent; //Название товара
+  if (btnOrder) {
+    const productTitle = document.querySelector('.main-product_description-title').textContent; //Название товара
+  };
 
 
 
