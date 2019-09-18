@@ -1,0 +1,22 @@
+.popup-success {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #50526999;
+  z-index: 9999;
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.popup-success_content {
+  margin: auto;
+}
+
+.popup-success--active {
+  opacity: 1;
+  pointer-events: all;
+}

@@ -1,11 +1,11 @@
 .product-categories {
   padding: 0 15px;
   position: relative;
+  display: flex;
 }
 
 .product-categories_wrap {
   max-width: 1470px;
-  width: max-content;
   margin: 0 auto;
   padding: 0;
   display: flex;

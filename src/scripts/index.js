@@ -20,3 +20,9 @@ navMobile();
 
 const productForm = require('./component/product-form.js');
 productForm();
+
+const mainForm = require('./component/main-form.js');
+mainForm();
+
+const stock = require('./component/stock.js');
+stock();
