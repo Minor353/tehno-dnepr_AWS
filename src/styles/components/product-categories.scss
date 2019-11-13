@@ -13,6 +13,7 @@
   padding: 40px 0;
   background-color: #fff;
   position: relative;
+  overflow-x: scroll;
 }
 
 .product-categories::after {
@@ -161,9 +162,6 @@
 
 
 @media screen and (max-width: 1470px) {
-  .product-categories_wrap {
-    overflow-x: scroll;
-  }
 
   .product-categories::before {
     opacity: 1;

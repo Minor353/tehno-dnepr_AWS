@@ -8,3 +8,29 @@
     padding-top: 60px;
   }
 }
+
+html {
+  scrollbar-color: #EF4C23 #505269;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #505269;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #EF4C23;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #EF4C23;
+}
